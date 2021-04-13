@@ -1,0 +1,174 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .logo {
+    background-color:#3D1749;
+    width: 100%;
+}
+
+
+
+nav ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li{
+    display:inline;
+    margin: 10px
+}
+
+nav ul li a{
+    background-color:#3d1;
+    color: black;
+    border-radius: 30px;
+    padding:6px;
+    display: inline-block;
+    margin:4px
+}
+
+nav ul li a:hover{
+    background-color: black;
+    color:#3d1;
+}
+
+nav i{
+    display: none
+}
+
+.fotopersonaje{
+    width: 100%;
+}
+
+.texto{
+    font-size: 30px;
+    text-align: center; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.texto p{
+    font-size: 20px;
+    text-align: center;
+    font-family:sans-serif;
+    padding: 10px;
+}
+
+/*home*/
+
+.contenido{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contentinicio{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgsinicio img {
+    width: 40%;
+    margin: 6px;
+    float: left;
+}
+
+.txtinicio h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+}
+
+.txtinicio p{
+    font-size: 16px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #ecf5ee;
+    border-radius: 30px; 
+    margin-top: 5px;
+}
+
+.linksecciones{
+    text-align: center;
+}
+
+.clearfloat{
+    clear: both;
+}
+/*fin home*/
+
+/*novelas graficas*/
+
+.txttitulo{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.contentgraficas{
+    margin: 20px;
+    padding-left: 600px;
+    width: 20%;
+}
+
+.txtgraficas {
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #7be49542;
+    border-radius: 30px; 
+}
+/*fin novelas graficas*/
+
+/*personajes*/
+
+.contpersonajes{
+    width: 100%;
+    margin-top: auto;
+    padding-top: auto;
+}
+
+.imgpersonaje{
+    width: 20%;
+    margin: 20px;
+    padding-left: 600px;
+
+}
+
+.txtpersonajes{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #8e8ddd42;
+    border-radius: 30px;
+}
+/*fin personajes*/
+
+
+.cajaartepop img{
+    width: 10%;
+    border-radius: 30px;
+}
+
+footer { 
+    background-color: #3D1749;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
